@@ -1,8 +1,8 @@
 pipeline{
 	agent any
 	tools{
-		maven 'maven 3'
-		jdk 'java 8'
+		maven 'maven'
+		jdk 'jdk8'
 	}
 	stages{
 	stage('git repo & clean'){
