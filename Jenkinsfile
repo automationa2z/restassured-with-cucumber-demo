@@ -7,7 +7,7 @@ pipeline{
 	stages{
 	stage('git repo & clean'){
 		steps{
-		//sh'rm -r restassured-with-cucumber-demo-1'
+		sh'rm -r restassured-with-cucumber-demo-1'
 		sh'git clone https://github.com/automationa2z/restassured-with-cucumber-demo.git'
 		sh'mvn clean'
 		}
