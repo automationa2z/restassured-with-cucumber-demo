@@ -4,8 +4,12 @@ public class PaymentBranch {
     System.out.println("Hello How are you?");
   }
 
-  public void askName(){
+  public void askName() {
     System.out.println("What's your name?");
+  }
+
+  public void answer(){
+    System.out.println("My name is Omar");
   }
 
   public static void main(String[] args) {
